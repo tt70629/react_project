@@ -7,7 +7,7 @@ tutorial lectured by Mosh and Academind on YouTube.
 
 The purpose of this application is to post blogs in the browser, 
 
-the data will be store in Firebase realtime database.
+the data will be stored in Firebase realtime database.
 
 In the further planning, the App will be connected to a server built
 
