@@ -2,12 +2,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Modal, Button, Spinner } from 'react-bootstrap';
 
 
-function ModalPost(props) {
+function PostModal(props) {
 
     const [isModalOpen, setIsModalOpen] = useState(false)
-    const [isDataSent, setisDataSent] = useState(props.onDataSent)
     useEffect(() => {
-        setisDataSent(props.onDataSent);
         props.onDataSent&& handleModalClose();
     }, [props.onDataSent]);
 
@@ -25,7 +23,8 @@ function ModalPost(props) {
         const data = {
             title: enteredTitle,
             content: enteredContent,
-            date: enteredDate
+            date: enteredDate,
+            like:false
         }
         props.onSendData(data);
 
@@ -87,4 +86,4 @@ function ModalPost(props) {
 
 }
 
-export default ModalPost;
+export default PostModal;
