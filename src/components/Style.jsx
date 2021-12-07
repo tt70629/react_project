@@ -17,7 +17,8 @@ export const useStyles = makeStyles((theme) => ({
         maxWidth:1900,// override the default max-width
         minHeight:1100,// to push footer on bottom and avoiding overlapping
         marginBottom:10,
-        backgroundColor:theme.palette.grey[100]
+        //backgroundColor:theme.palette.grey[100],
+        //color:theme.palette.type==='light'?theme.palette.text.secondary:theme.palette.text.primary
     },
     footer: {
         maxWidth:2080,// override the default max-width
@@ -27,9 +28,11 @@ export const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontSize: 14,
+        //color:theme.palette.type==='light'?theme.palette.text.secondary:theme.palette.text.primary
     },
     iconButton: {
         marginLeft: 'auto',
         marginRight: -12,
+    
     }
 }));

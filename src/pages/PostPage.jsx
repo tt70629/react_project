@@ -3,7 +3,7 @@ import axios from 'axios';
 import PostList from '../components/PostList';
 
 
-function PostPage() {
+export function PostPage() {
     const [isLoading, setisLoading] = useState(false);
     const [isDataSent, setisDataSent] = useState(false);
     const [postList, setpostList] = useState([]);
@@ -65,7 +65,6 @@ function PostPage() {
         <>
            
             <div style={{
-                //display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
               
@@ -74,7 +73,6 @@ function PostPage() {
                     postList={postList}
                     onUpdate={handleUpdate}
                     onDelete={handleDelete}
-
                     onSendData={handleSendRequest}
                     onLoading={isLoading}
                     onDataSent={isDataSent} />              
@@ -82,4 +80,3 @@ function PostPage() {
         </>
     )
 }
-export default PostPage;

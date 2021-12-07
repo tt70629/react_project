@@ -18,7 +18,7 @@ export const lightTheme = createTheme({
       main: "#dc3545"
     },
     text:{
-      primary: grey[300],
+      primary: grey[200],
       secondary:grey[200]
     },
     background:{

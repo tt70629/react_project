@@ -1,9 +1,9 @@
 import './App.css';
 import React, { Component } from 'react';
-import PostPage from './pages/PostPage';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Layout from './components/ui/Layout.jsx'
-import HomePage from './pages/HomePage';
+import {HomePage} from './pages/HomePage';
+import {PostPage} from './pages/PostPage';
 
 class App extends Component {
 

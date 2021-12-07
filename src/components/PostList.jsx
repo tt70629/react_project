@@ -1,7 +1,6 @@
-//import { Container } from '@material-ui/core';
+
 import React, { useEffect, useState } from 'react';
 import PostModal from '../components/PostModal';
-//import PostItem from './PostItem';
 
 import PostItemMui from './PostItemMui';
 
@@ -33,7 +32,7 @@ function PostList({ postList, onUpdate, onDelete, onSendData, onLoading, onDataS
     return (
         <>
         <div>
-            <button className='btn btn-primary btn-sm m-3' onClick={handlePost}>Post something...</button>
+            <button className='btn btn-primary btn-sm m-3' onClick={handlePost}> Post something...</button>
         </div>
             <div>
                 <PostModal
