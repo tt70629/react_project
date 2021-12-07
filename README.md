@@ -9,13 +9,13 @@ The purpose of this application is to post blogs in the browser,
 
 the data will be stored in Firebase realtime database.
 
-In the further planning, the App will be connected to a server built
+In further development, the App will be connected to a server built
 
 with Node.js and MongoDB.
 
 ## How to use ?
 
-1.Run npm i to install all required package.
+1.Run npm i to install all required dependencies.
 
 2.Run npm start
 
