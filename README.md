@@ -1,7 +1,7 @@
 
 ## Blog posting App with React.js
 
-This is a simple frondend project built with React.js by following
+This is a simple frontend project built with React.js by following
 
 tutorial lectured by Mosh and Academind on YouTube.
 
